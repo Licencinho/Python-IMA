@@ -35,7 +35,7 @@ WHERE customer_firstname LIKE "Br%"
 group by customer_firstname, customer_surname
 order by number_of_orders desc
 
--- There's a tie between customers, who all placed 1 order
+-- There's a tie between 4 customers, who all placed 1 order
 
 -- 7) List all orders with products from category 3 by order of price, highest first.
 
